@@ -1,0 +1,69 @@
+
+  body {
+    font-family: 'Quicksand', sans-serif; /* Reemplaza 'Roboto' por la fuente que elegiste */
+}
+  
+
+
+.btn-custom {
+    background-color: transparent;
+    color: #ffffff; /* Cambia este color por el que desees para el texto */
+    border: 1px solid #9bdbdb; /* Cambia el color del borde si es necesario */
+    transition: background-color 0.3s, color 0.3s; /* Transiciones suaves */
+  }
+
+  .btn-custom:hover {
+    background-color: white; /* Fondo blanco al pasar el mouse */
+    color: #00857f; /* Color del texto al pasar el mouse */
+  }
+
+
+
+/* carrusel */
+
+  .card-carousel .slick-slide {
+    margin: 4px;
+}
+
+.card-carousel .card {
+    background-size: cover;
+    background-position: center;
+    color: #d8f0f1;
+    height: 250px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-carousel .card-body {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 1px;
+    bottom: 0; /* Coloca el texto en la parte inferior de la card */
+    position: absolute;
+    bottom: 0; /* Coloca el texto en la parte inferior de la card */
+}
+
+.slick-prev, .slick-next {
+    z-index: 1;
+}
+
+       /* Estilo para el botón de acceso del administrador */
+        .admin-access-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+            font-size: 18px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+
+        .admin-access-btn:hover {
+            background-color: #0056b3;
+        }
